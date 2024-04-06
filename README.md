@@ -10,6 +10,30 @@ magnet:?xt=urn:btih:d064361ce9aaaef2328ab704835badb343e1f557&dn=seestarOS.zip&tr
 https://drive.google.com/file/d/1oWCFLvSCC0e7uNRTzw12Eg6EKf1ajdbA/view?usp=drive_link
 
 
+The zip is 1.7G and extracts to 62.5G so make sure you have enough room to hold the img.  Check the parittion table is good with:
+
+fdisk -l seestarOS.img
+
+it should display very simalr results to this:
+
+Disk seestarOS.img: 58.25 GiB, 62545461248 bytes, 122159104 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: 73987B6B-4974-4C94-A3E8-58AB2EB7A946
+
+Device            Start       End   Sectors  Size Type
+seestarOS.img1    16384     24575      8192    4M unknown
+seestarOS.img2    24576     32767      8192    4M unknown
+seestarOS.img3    32768    163839    131072   64M unknown
+seestarOS.img4   163840    229375     65536   32M unknown
+seestarOS.img5   229376   1277951   1048576  512M unknown
+seestarOS.img6  1277952  11763711  10485760    5G unknown
+seestarOS.img7 11763712  15958015   4194304    2G unknown
+seestarOS.img8 15958016 122159040 106201025 50.6G unknown
+
+
 Prerequisites: Install Necessary Dependencies
 Before you start, ensure your system is up to date and has all the necessary dependencies installed. Open a terminal and execute the following commands:
 
