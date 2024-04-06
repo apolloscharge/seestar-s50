@@ -4,7 +4,8 @@ Replacement img for the Seestar S50Disclaimer: This guide is intended for educat
 This process places a new img on the eMMC of the seestar. It overwrites everything. This image is ssh enabled, compatibilty for asiair app is enabled, and save all images is enabled. These settings are found in the ~/.ZWO/ASIAIR_imager.xml
 
 Download seestarOS.img
-magnet:?xt=urn:btih:d064361ce9aaaef2328ab704835badb343e1f557&dn=seestarOS.zip
+
+<a href="magnet:?xt=urn:btih:d064361ce9aaaef2328ab704835badb343e1f557&dn=seestarOS.zip">Download seestarOS.zip</a>
 
 
 
