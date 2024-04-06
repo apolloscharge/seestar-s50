@@ -3,6 +3,8 @@ Replacement img for the Seestar S50Disclaimer: This guide is intended for educat
 
 This process places a new img on the eMMC of the seestar. It overwrites everything. This image is ssh enabled, compatibilty for asiair app is enabled, and save all images is enabled. These settings are found in the ~/.ZWO/ASIAIR_imager.xml
 
+*****************************
+
 Download seestarOS.img torrent
 
 magnet:?xt=urn:btih:d064361ce9aaaef2328ab704835badb343e1f557&dn=seestarOS.zip&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337
@@ -33,6 +35,7 @@ seestarOS.img6  1277952  11763711  10485760    5G unknown
 seestarOS.img7 11763712  15958015   4194304    2G unknown
 seestarOS.img8 15958016 122159040 106201025 50.6G unknown
 
+*******************************************
 
 Prerequisites: Install Necessary Dependencies
 Before you start, ensure your system is up to date and has all the necessary dependencies installed. Open a terminal and execute the following commands:
@@ -49,6 +52,7 @@ autoreconf -i && ./configure CXXFLAGS="-Wno-error=format-truncation=" && make
 
 sudo make install
 
+**************************************************
 
 preparing the Seestar Device
 To flash a new image, your Seestar must be in Maskrom mode. Follow these steps to prepare your device:
@@ -66,6 +70,7 @@ To verify that your Seestar is connected and in the correct mode, use the follow
 sudo rkdeveloptool ld  # Check if the device is in Maskrom mode
 sudo rkdeveloptool rid # Get the device ID
 
+*******************************************************
 
 Flashing the New Image
 
