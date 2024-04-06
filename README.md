@@ -7,6 +7,9 @@ Download seestarOS.img torrent
 
 magnet:?xt=urn:btih:d064361ce9aaaef2328ab704835badb343e1f557&dn=seestarOS.zip&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337
 
+https://drive.google.com/file/d/1oWCFLvSCC0e7uNRTzw12Eg6EKf1ajdbA/view?usp=drive_link
+
+
 Prerequisites: Install Necessary Dependencies
 Before you start, ensure your system is up to date and has all the necessary dependencies installed. Open a terminal and execute the following commands:
 
