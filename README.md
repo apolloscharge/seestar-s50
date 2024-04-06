@@ -7,10 +7,15 @@ Prerequisites: Install Necessary Dependencies
 Before you start, ensure your system is up to date and has all the necessary dependencies installed. Open a terminal and execute the following commands:
 
 sudo apt-get update
+
 sudo apt-get install -y python2 git libusb-1.0-0-dev libudev-dev pkg-config autoconf libtool
+
 git clone https://github.com/rockchip-linux/rkdeveloptool.git
+
 cd rkdeveloptool
+
 autoreconf -i && ./configure CXXFLAGS="-Wno-error=format-truncation=" && make
+
 sudo make install
 
 
