@@ -5,8 +5,7 @@ This process places a new img on the eMMC of the seestar. It overwrites everythi
 
 Download seestarOS.img
 
-<a href="magnet:?xt=urn:btih:d064361ce9aaaef2328ab704835badb343e1f557&dn=seestarOS.zip">Download seestarOS.zip</a>
-
+magnet:?xt=urn:btih:d064361ce9aaaef2328ab704835badb343e1f557&dn=seestarOS.zip&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969
 
 
 Prerequisites: Install Necessary Dependencies
