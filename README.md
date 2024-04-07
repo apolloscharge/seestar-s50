@@ -1,6 +1,8 @@
 # seestar-s50
 Replacement img for the Seestar S50Disclaimer: This guide is intended for educational purposes only. Flashing a new firmware image onto your Seestar device is risky and can potentially brick your device, making it inoperable. Please proceed with caution and understand that there is no guarantee of success, and reverting back to the original firmware may not be possible once you proceed. Always ensure you have a complete backup of your device's current state. We are not responsible for any damage to your device or loss of data that may occur from following this guide. These instruction are for a Linux enviroment tested on an fresh Ubuntu 22.04.4 install.
 
+You can place the extracted seestarOS.img in a direcotry with the canOPENER.sh and it will preform this for you and walk you through the process of placing the seestar in maskrom mode.
+
 This process places a new img on the eMMC of the seestar. It overwrites everything. This image is ssh enabled, compatibilty for asiair app is enabled, and save all images is enabled. These settings are found in the ~/.ZWO/ASIAIR_imager.xml
 
 login:pi 
